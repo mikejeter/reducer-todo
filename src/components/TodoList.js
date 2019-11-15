@@ -1,6 +1,4 @@
 import React, { useState, useReducer } from "react";
-
-// importing initialState and reducer
 import { initialState, reducer } from "../reducers/todoReducer";
 
 const TodoList = () => {
@@ -30,7 +28,7 @@ const TodoList = () => {
           >
             {todo.item}
           </p>
-          // console.log('console logging the map', todo.item)
+          
         ))}
       </div>
       <form onSubmit={handleSubmit}>
