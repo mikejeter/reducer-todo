@@ -37,7 +37,7 @@ const TodoList = () => {
         <input
           type="text"
           name="todo"
-          placeholder="Clean out bunny cage"
+          placeholder="Add Todo"
           className="input"
           onChange={handleChanges}
         />
